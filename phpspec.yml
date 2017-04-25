@@ -1,0 +1,5 @@
+suites:
+   acme_suite:
+       namespace: Nours88
+       psr4_prefix: Nours88
+       src_path: src/Nours88

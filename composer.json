@@ -3,10 +3,11 @@
     "description": "Transfert les données d'un fichier vers une base de donnée",
     "type": "library",
     "require": {
-        "phpoffice/phpexcel": "^1.8"
+        "phpoffice/phpspreadsheet": "dev-master"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.1"
+        "phpspec/phpspec": "^3.2",
+        "phpunit/phpunit": "^5"
     },
     "license": "MIT",
     "authors": [
@@ -14,5 +15,10 @@
             "name": "Loïc Jazon",
             "email": "contact@loicjazon.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nours88\\": "src/Nours88"
+        }
+    }
 }
